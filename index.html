@@ -1,17 +1,44 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
+<html lang="en">
+​
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!--jQuery-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <!--Bootstrap-->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <title>Giftastic Homework</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+​
+  <title>GifTastic</title>
+​
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="./assets/style/style.css">
+​
 </head>
-
+​
 <body>
-
-</body> 
-</html>
+  <!-- empty div to hold the buttons  -->
+  <div id="stateButtons">
+​
+  </div>
+​
+  <!-- this is the form we use to input states  -->
+  <form id="stateForm">
+    Pick a State:
+    <input type="text" id='stateInput' value="">
+    <br />
+    <!-- Button that adds state  -->
+    <input id="newStateButton" type="button" value="Let's explore...">
+  </form>
+​
+  <!-- Div to hold our gifs -->
+  <div id="stateGifs">
+​
+  </div>
+​
+  <!-- jQuery CDN-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Bootstrap CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <!-- GifTastic JS -->
+  <script src="./assets/js/javascript.js"></script>
+​
+</body>
